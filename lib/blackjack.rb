@@ -68,7 +68,7 @@ def runner
   a = initial_round
   puts a
   until a > 21
-    puts hit?(a)
+    a = hit?(a)
   end
   end_game
 end
