@@ -70,6 +70,7 @@ def runner
   until a > 21
     hit?(a)
   end
+end_game
 end
 
 runner
