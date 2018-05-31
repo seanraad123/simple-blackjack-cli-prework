@@ -69,5 +69,5 @@ def runner
   until a > 21
     a = hit?(a)
   end
-  end_game
+  end_game(a)
 end
