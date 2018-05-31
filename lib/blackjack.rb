@@ -22,7 +22,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  choice = gets
+  choice = gets.chomp
   return choice
 end
 
