@@ -69,7 +69,6 @@ def runner
   puts a
   until a > 21
     a = hit?(a)
-    puts a
   end
   end_game
 end
